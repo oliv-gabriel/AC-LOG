@@ -17,22 +17,21 @@ export const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-between'
     },
-      dateField: {
-        width: '50%',
-        height: 40,
-        borderRadius: 8,
-        borderWidth: 1,
-        borderColor: '#482a80',
-        fontSize: 16,
-        color: '#482a80',
-         flex: 1,
-        marginHorizontal: 5
-  },
+     dateField: {
+  borderColor: '#482a80',
+  borderWidth: 1,
+  borderRadius: 8,
+  height: 40,
+  justifyContent: 'center', 
+  paddingHorizontal: 8,
+  flex: 1,
+  marginHorizontal: 5,
+},
+
   dateText: {
-    fontSize: 16,
-    padding: 8,
-    color: '#482a80',
-  },
+  fontSize: 16,
+  color: '#482a80',
+},
 
     inputContainer: {
     borderWidth: 1,

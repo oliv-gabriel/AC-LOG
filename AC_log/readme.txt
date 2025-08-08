@@ -1,0 +1,2 @@
+inicio
+- npm install
